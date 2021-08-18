@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #ffc63f;
+  }
+  .title{
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    color: #141c3a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  #demo{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #141c3a;
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+  /* bat dau*/
+  .keys{
+    width: 550px;
+    height: 310px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fd4d3f;
+    margin-top: 30px;
+  }
+  .key{
+    width: 60px;
+    height: 300px;
+    display: inline-block;
+    border: solid #141c3a 2px;
+    box-shadow: 2px 5px;
+    background-color: white;
+    color: #141c3a;
+    transition: all .7s;
+  }
+  .play{
+    background-color: rgb(212, 203, 192);
+    border-color: black ;
+    transform: scale(0.97);
+  }
+  .black-key{
+    width: 40px;
+    height: 170px;
+    display: inline-block;
+    background-color: #141c3a;
+    color: white;
+    position: absolute;
+    margin-left: -12px;
+    padding: 0px;
+    z-index: 3;
+  }
+  .keynote{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 260px;
+    color: black;
+    font-size: 30px;
+  }
+  .black-keynote{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+  }
+  
